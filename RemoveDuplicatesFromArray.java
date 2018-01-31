@@ -2,7 +2,9 @@ package fastrack.ques;
 
 public class RemoveDuplicatesFromArray {
 	public static void main(String[] args) {
-
+            
+		//If the array is not sorted, sort it first using quick sort
+		
 		int[] arr = { 1, 2, 3, 4, 2, 3, 1 }; // input array
 		int len = arr.length;
 		for (int i = 0; i < arr.length; i++) {
